@@ -1,0 +1,5 @@
+sudo docker build . -t tecprog/caddy
+sudo docer run -p 8081:80 tecprog/caddy
+mkdir pages
+mv index.html about.html pages
+vim pages/about.html
